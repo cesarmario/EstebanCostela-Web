@@ -856,11 +856,18 @@ img {
 }
 
 .aa-properties-item .aa-properties-item-img {
-    width: 100%;
+    /* width: 100%; */
+    max-height: 190px;
+    max-width: 360px;
+    width: auto;
 }
 
 .aa-properties-item .aa-properties-item-img img {
     width: 100%;
+    max-height: 190px;
+    /* max-width: 360px;
+    width: auto; */
+
 }
 
 .aa-properties-item .aa-tag {

@@ -396,7 +396,7 @@ include('php/list_inmuebles_destacados.php');
                                     <a href="propiedades.php">Propiedades</a>
                                     <a href="nosotros.html">Nosotros</a>
                                     <a href="servicios.html">Servicios</a>
-                                    <a href="blog.html">Blog</a>
+                                    <!-- <a href="blog.html">Blog</a> -->
                                     <a href="contacto.html">Contacto</a>
                                 </div>
                             </div>

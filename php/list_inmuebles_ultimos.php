@@ -76,7 +76,7 @@ while ($inmuebles = mysqli_fetch_assoc($rtsinmuebles)) {
     $listadoUltimos .= "<img class='media-object' src='" . $nomimg . "' alt='img'></a>";
     $listadoUltimos .= "</div>";
     $listadoUltimos .= "<div class='media-body'>";
-    $listadoUltimos .= "<h4 class='media-heading'><a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] . "&operacion=" . $inmuebles['idOperacion'] . "&propiedad=" . $inmuebles['idPropiedad'] . "'>" .  $inmuebles['tituloInmueble'] . "</a></h4>";
+    $listadoUltimos .= "<h5 class='media-heading'><a href='detalle-inmueble.php?idInmueble=" . $inmuebles['idInmueble'] . "&operacion=" . $inmuebles['idOperacion'] . "&propiedad=" . $inmuebles['idPropiedad'] . "'>" .  $inmuebles['tituloInmueble'] . "</a></h5>";
     $listadoUltimos .= "<p>" . $nombreOperacion . "</p>";
     $listadoUltimos .= "<span>Consultar</span>";
     $listadoUltimos .= "</div>";

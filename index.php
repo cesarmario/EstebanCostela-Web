@@ -111,7 +111,7 @@ include('php/list_inmuebles_index.php');
                         <li><a href="propiedades.php">Propiedades</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li><a href="blog.html">Blog</a></li> -->
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="contacto.html">Contacto <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -277,10 +277,10 @@ include('php/list_inmuebles_index.php');
                                     <div class="row">
                                         <div class="col-md-12">
                                             <article class="aa-blog-single aa-blog-details">
-                                                <figure class="aa-blog-img">
+                                                <!-- <figure class="aa-blog-img">
                                                     <a href="blog.html"><img alt="img" src="img/img-blog/portada-1.png"></a>
                                                     <span class="aa-date-tag">21 de Septiembre de 2023</span>
-                                                </figure>
+                                                </figure> -->
                                                 <div class="aa-blog-single-content">
                                                     <h2>Recomendaciones antes de alquilar</h2>
                                                     <div class="aa-blog-single-bottom">
@@ -312,10 +312,10 @@ include('php/list_inmuebles_index.php');
                                                 </div>
 
                                             </article>
-                                            <div class="aa-promo-banner-area" align="center">
+                                            <!-- <div class="aa-promo-banner-area" align="center">
                                                 <a href="blog.html" class="aa-view-btn">Ingresa a nuestro Blog para ver
                                                     las últimas novedades</a>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -375,12 +375,12 @@ include('php/list_inmuebles_index.php');
                             </div>
                             <div class="aa-contact-top-right" align="justify">
                                 <h2>Contacto</h2>
-                                <p>Nuestras oficinas están a tu disposición en calle Francisco de Miranda Oeste Nº 1243, Departamento Capital, Provincia de San Juan.</p>
+                                <p>Nuestras oficinas están a tu disposición en Lateral este de Circunvalación N° 1395, Santa Lucía, San Juan.</p>
                                 <p>Nuestro horario es de corrido de Lunes a Viernes de 9:00 a 15:00 hs.</p>
                                 <ul class="contact-info-list">
                                     <li> <i class="fa fa-phone"></i>264 459 5997</li>
                                     <li> <i class="fa fa-envelope-o"></i>info@estebancostela.com.ar</li>
-                                    <li> <i class="fa fa-map-marker"></i>Francisco de Miranda 1243 (O) - <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Capital, San Juan</li>
+                                    <li> <i class="fa fa-map-marker"></i>Lateral este de Circunvalación N° 1395 - <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Santa Lucía, San Juan</li>
                                 </ul>
                             </div>
                         </div>
@@ -453,7 +453,7 @@ include('php/list_inmuebles_index.php');
                                     <a href="propiedades.php">Propiedades</a>
                                     <a href="nosotros.html">Nosotros</a>
                                     <a href="servicios.html">Servicios</a>
-                                    <a href="blog.html">Blog</a>
+                                    <!-- <a href="blog.html">Blog</a> -->
                                     <a href="contacto.html">Contacto</a>
                                 </div>
                             </div>

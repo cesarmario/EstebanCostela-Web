@@ -111,7 +111,7 @@ include('php/list_inmuebles_ultimos.php');
                         <li class="active"><a href="propiedades.php">Propiedades</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li><a href="blog.html">Blog</a></li> -->
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="contacto.html">Contacto <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -292,7 +292,7 @@ include('php/list_inmuebles_ultimos.php');
                                     <a href="propiedades.php">Propiedades</a>
                                     <a href="nosotros.html">Nosotros</a>
                                     <a href="servicios.html">Servicios</a>
-                                    <a href="blog.html">Blog</a>
+                                    <!-- <a href="blog.html">Blog</a> -->
                                     <a href="contacto.html">Contacto</a>
                                 </div>
                             </div>
