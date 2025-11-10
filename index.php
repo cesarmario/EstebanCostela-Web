@@ -259,7 +259,7 @@ include('php/list_inmuebles_index.php');
     <!-- / Promo Banner Section -->
 
     <!-- / BLOG -->
-    <section id="aa-blog">
+    <!-- <section id="aa-blog">
         <div class="container">
             <div class="aa-title">
                 <h2>BLOG</h2>
@@ -276,12 +276,12 @@ include('php/list_inmuebles_index.php');
                                 <div class="aa-blog-content">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <article class="aa-blog-single aa-blog-details">
-                                                <!-- <figure class="aa-blog-img">
+                                            <article class="aa-blog-single aa-blog-details"> -->
+    <!-- <figure class="aa-blog-img">
                                                     <a href="blog.html"><img alt="img" src="img/img-blog/portada-1.png"></a>
                                                     <span class="aa-date-tag">21 de Septiembre de 2023</span>
                                                 </figure> -->
-                                                <div class="aa-blog-single-content">
+    <!-- <div class="aa-blog-single-content">
                                                     <h2>Recomendaciones antes de alquilar</h2>
                                                     <div class="aa-blog-single-bottom">
                                                         <a class="aa-blog-author" href="blog.html"><i class="fa fa-user"></i>
@@ -312,11 +312,11 @@ include('php/list_inmuebles_index.php');
                                                 </div>
 
                                             </article>
-                                            <!-- <div class="aa-promo-banner-area" align="center">
+                                             <div class="aa-promo-banner-area" align="center">
                                                 <a href="blog.html" class="aa-view-btn">Ingresa a nuestro Blog para ver
                                                     las últimas novedades</a>
                                             </div> -->
-                                        </div>
+    <!-- </div>
                                     </div>
                                 </div>
                             </div>
@@ -324,8 +324,8 @@ include('php/list_inmuebles_index.php');
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> -->
+    <!-- </section> -->
     <!-- / FIN DEL BLOG -->
 
 
