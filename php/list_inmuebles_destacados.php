@@ -67,19 +67,19 @@ while ($inmueblesdest = mysqli_fetch_assoc($rtsinmueblesdest)) {
     } else {
         $valorInmuebleDest = "Consultar";
     };
-    $domicilio = "";
+    $domicilioDest = "";
     if (!empty($inmueblesdest['domicilioNumeroInmueble'])) {
-        $domicilio .= " " . $inmueblesdest['domicilioNumeroInmueble'];
+        $domicilioDest .= " " . $inmueblesdest['domicilioNumeroInmueble'];
     }
     if (!empty($inmueblesdest['domicilioOrientacionInmueble'])) {
-        $domicilio .= " " . $inmueblesdest['domicilioOrientacionInmueble'];
+        $domicilioDest .= " " . $inmueblesdest['domicilioOrientacionInmueble'];
     }
     if (!empty($inmueblesdest['nombreLocalidad'])) {
-        $domicilio .= "<br>&nbsp;<b>" . $inmueblesdest['nombreLocalidad'] . "</b>";
+        $domicilioDest .= "<br>&nbsp;<b>" . $inmueblesdest['nombreLocalidad'] . "</b>";
     }
 
-    $nombreLocalidad = $inmueblesdest['nombreLocalidad'];
-    $nombreOperacion = $inmueblesdest['nombreOperacion'];
+    $nombreLocalidadDest = $inmueblesdest['nombreLocalidad'];
+    $nombreOperacionDest = $inmueblesdest['nombreOperacion'];
 
     $destacado .= " <div class='col-md-6'>";
     $destacado .= "<article class='aa-properties-item'>";

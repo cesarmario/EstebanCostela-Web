@@ -205,7 +205,7 @@ include('php/list_inmuebles_destacados.php');
                                             <tr>
                                                 <th scope="row">Tipo de Propiedad</th>
                                                 <td>
-                                                    <p><?PHP echo $$nombrePropiedad; ?></p>
+                                                    <p><?PHP echo $nombrePropiedad; ?></p>
                                                 </td>
                                                 <td></td>
                                             </tr>

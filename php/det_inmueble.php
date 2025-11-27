@@ -21,7 +21,6 @@ if (!empty($inmueble['domicilioOrientacionInmueble'])) {
 if (!empty($inmueble['nombreLocalidad'])) {
     $domicilio .= ", " . $inmueble['nombreLocalidad'];
 }
-
 if (!empty($inmueble['cocheraInmueble'])) {
     $cocheraInmueble = $inmueble['cocheraInmueble'];
 } else {
@@ -33,7 +32,6 @@ if (!empty($inmueble['tipoCocheraInmueble'])) {
 if ($inmueble['vehiculosCocheraInmueble'] > 0) {
     $vehiculosCocheraInmueble .= "&nbsp;-&nbsp;Vehiculos: " . $inmueble['vehiculosCocheraInmueble'];
 }
-
 if ($inmueble['plantasInmueble'] > 0) {
     $plantasInmueble = $inmueble['plantasInmueble'];
 } else {
