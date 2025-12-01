@@ -4,7 +4,7 @@ $querylocalidad = "SELECT * FROM localidad ORDER BY idLocalidad";
 $rtslocalidad = mysqli_query($conexion, $querylocalidad);
 //$localidad=mysqli_fetch_assoc($rtslocalidad)
 
-$queryoperacion = "SELECT * FROM operacion WHERE baja = 0 ORDER RBY nombreOperacion";
+$queryoperacion = "SELECT * FROM operacion WHERE baja = 0 ORDER BY nombreOperacion";
 $rtsoperacion = mysqli_query($conexion, $queryoperacion);
 // $operaciones=mysqli_fetch_assoc($rtsoperacion;
 
