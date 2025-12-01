@@ -80,7 +80,7 @@ while ($inmueblesdest = mysqli_fetch_assoc($rtsinmueblesdest)) {
 
     $nombreLocalidadDest = $inmueblesdest['nombreLocalidad'];
     $nombreOperacionDest = $inmueblesdest['nombreOperacion'];
-
+    //Inmuebles Destacados.
     $destacado .= " <div class='col-md-6'>";
     $destacado .= "<article class='aa-properties-item'>";
     $destacado .= "<a class='aa-properties-item-img' href='detalle-inmueble.php?idInmueble=" . $inmueblesdest['idInmueble'] . "&operacion=" . $inmueblesdest['idOperacion'] . "&propiedad=" . $inmueblesdest['idPropiedad'] . "'>";

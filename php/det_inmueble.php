@@ -5,7 +5,7 @@ if (isset($_REQUEST['id'])) {
 } else {
     $idInmueble = $_REQUEST['idInmueble'];
 }
-
+//Detalle del Inmueble Seccionado
 $queryInmueble = "SELECT * FROM vista_inmuebles WHERE idInmueble = '$idInmueble'";
 $rtsInmueble = mysqli_query($conexion, $queryInmueble);
 $inmueble = mysqli_fetch_assoc($rtsInmueble);
